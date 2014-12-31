@@ -21,7 +21,7 @@ class UsersController < ApplicationController
     if @user.save
       # @user.send_activation_email     # same as: UserMailer.account_activation(@user).deliver
       # flash[:info] = "Please check your email to activate your account."
-      log_in user
+      log_in @user
       flash[:info] = "Signed up successfully!"
       if @user.name == 'Steve95'
         admin_user
