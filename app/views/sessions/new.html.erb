@@ -10,6 +10,7 @@
 
       <%= f.label :password %>
       <%= link_to "(forgot password)", new_password_reset_path %>
+      <%= "Do NOT forget password or else you can't get it back!" %>
       <%= f.password_field :password, class: 'form-control' %>
 
       <%= f.label :remember_me, class: "checkbox inline" do %>
