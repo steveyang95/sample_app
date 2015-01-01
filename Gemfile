@@ -35,6 +35,14 @@ gem 'faker', '1.4.2'
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 
+# More info: https://www.railstutorial.org/book/user_microposts#sec-basic_image_upload
+# Upload Images; adds a Rails generate for creating an image uploader
+# gem 'carrierwave',             '0.10.0'
+# Image resizing
+# gem 'mini_magick',             '3.8.0'
+# Image upload in production
+# gem 'fog',                     '1.23.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
