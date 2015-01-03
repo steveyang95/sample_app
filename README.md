@@ -1,33 +1,13 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+BasicFeed
 
 # Ruby on Rails Tutorial: sample application
 
-This is the sample application for the
+This sample applciation follows after:
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
+This project will always to continue to be modified and adjusted so please check back from time to time to see the minor changes.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To see the application, please go to: aqueous-savannah-4314.herokuapp.com
+
