@@ -25,6 +25,39 @@ body {
   padding-top: 60px;
 }
 
+body.homepage {
+  padding-top: 100px;
+  background-image: image-url('rails.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /* footer */
+
+  footer {
+    margin-top: 400px;
+    padding-top: 5px;
+    border-top: 1px solid $gray-medium-light;
+    color: #1E90FF;
+    a {
+      color: #00BFFF;
+      &:hover {
+        color: $gray-medium-light;
+      }
+    }
+    small {
+      float: left;
+    }
+    ul {
+      float: right;
+      list-style: none;
+      li {
+        float: left;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
 section {
   overflow: auto;
 }
@@ -82,6 +115,7 @@ p {
   &:hover {
     color: white;
     text-decoration: none;
+    text-shadow: 0.5px 0.5px white;
   }
 }
 
